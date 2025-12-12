@@ -15,14 +15,14 @@ public class MiniBookCorner
         double[][] prices = new double[2][1];
 
        
-        titles[0][0] = "Lucy";
+        titles[0][0] = "The Awakening (The Vampire Diaries, Vol. 1)";
         prices[0][0] = 800.22;
 
-        titles[1][0] = "Aama";
+        titles[1][0] = "Jhola ";
         prices[1][0] = 350.91;
 
    
-        System.out.println("Mini Book Corner:\n");
+        System.out.println("~~~Mini Book Corner~~~\n Book Details:\n");
 
         for (int i = 0; i < categories.length; i++) {
             System.out.println("Category: " + categories[i]);
